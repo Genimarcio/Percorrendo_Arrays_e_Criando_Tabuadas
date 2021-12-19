@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>JavaScript</title>
+</head>
+<body class="p-3 mb-2 bg-light text-dark">
+
+    <div class="container">
+
+        <h1 class=" text-center text-warning ">Percorrendo Arrays e Construindo Tabuadas</h1>
+
+        <hr>
+
+        <input id="palavra_array" type="text" class="form-control" placeholder="Digite uma palavra aqui" aria-label="Username" aria-describedby="basic-addon1">
+
+        <button id="btFechar" onclick="palavraArray()" type="button" class="btn btn-primary mt-3">Enviar</button>
+
+        <button onclick="palavraArmazenadas()" type="button" class="btn btn-primary mt-3">Array</button>
+
+        <button onclick="ordenarArray()" type="button" class="btn btn-primary mt-3">Reordenar Array</button>
+
+        <button onclick="percorrerArray()" type="button" class="btn btn-primary mt-3">Percorrer Array</button>
+
+    </div>
+
+    <div class="container">
+
+        <h1 class=" text-center text-warning mt-3">Tabuadas de 1 a 10</h1>
+
+        <hr>
+
+        <select onchange="escolherTabuada(this.value)" class="form-select" aria-label="Default select example">
+            <option selected>Escolha a Tabuada</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+
+    </div>
+      
+
+    <script src="main.js" ></script>
+</body>
+</html>
